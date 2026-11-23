@@ -66,9 +66,9 @@ by the performance of the instruments used.
 
 The measurement setup, optimized for calibrator Fluke 5720A as a DUT and Datron 4808 as reference, was developed in MSL (figure by M. D. Early):
 
-![Connection setup of the Build-up Method](readme_img/build-up_method_connection_setup.png "Connection setup of the Build-up Method used by MSL")
+![Connection setup of the Build-Up Method](readme_img/build-up_method_connection_setup.png "Connection setup of the Build-Up Method used by MSL")
 
-![Measurement setup for Build-up Method used by MSL](readme_img/MSL_setup.png "Measurement setup for Build-up Method used by MSL")
+![Measurement setup for Build-Up Method used by MSL](readme_img/MSL_setup.png "Measurement setup for Build-Up Method used by MSL")
 
 ## 4. What is in this repository?
 
