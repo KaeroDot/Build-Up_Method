@@ -14,7 +14,7 @@ source.
 
 Originally the method was developed by L. A. Christian from MSL (Measurements Standards Laboratory of New Zealand, MSL),
 see [Christian2000], [pdf file with abstract](doc/Christian%20-%202000%20-%20A%20new%20method%20for%20measuring%20ratios%20of%20dc%20voltages%20f.pdf).
-M. D. Early (MSL) continued work on the method, see [Early2011], [pdf file with poster](doc/Early,%20Christian%20-%20poster%20at%20EURAMET%20meeting%202011%20-%20A%20Simple%20Build-up%20Method%20for%20the%20DC%20Voltage%20Scale%20of%20a%20Source.pdf`).
+M. D. Early (MSL) continued work on the method, see [Early2011], [pdf file with poster](doc/Early%2C%20Christian%20-%20poster%20at%20EURAMET%20meeting%202011%20-%20A%20Simple%20Build-up%20Method%20for%20the%20DC%20Voltage%20Scale%20of%20a%20Source.pdf)
 Next M. Šíra started comparison of the method against a divider,
 see [Šíra2012], [pdf file with abstract](`doc/Šíra%20et%20al.%20-%202012%20-%20Comparison%20of%20the%20Reference%20Step%20Method%20with%20a%20MI%2080008001%20potentiometer.pdf`).
 B.-O. Andersson, O. Gunnarsson and K.-E. Rydler did comparison against quantum standard.
