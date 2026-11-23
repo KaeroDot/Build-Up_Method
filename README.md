@@ -115,7 +115,7 @@ The directory [`CMI implementation in LabVIEW`](CMI_implementation_-_LabVIEW/) c
 the Build-Up Method as a software developed in LabVIEW. It is a simple software
 that can control calibrators and multimeters, read measurement points from an
 spreadsheet file, setup devices, run measurement and write results into the [MSL spreadsheet
-file](#42msl-spreadsheet).
+file](#42-msl-spreadsheet).
 
 Latest build is [1.3.1](CMI_implementation_in_LabVIEW/builds/1.3.1/),
 built for windows, requires [LabVIEW Runtime Engine 2011, 32 bit](https://www.ni.com/en/support/downloads/software-products/download.labview-runtime.html).
