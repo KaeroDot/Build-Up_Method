@@ -1,0 +1,77 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 11.08.0 ] */
+
+/* [wxMaxima: input   start ] */
+G10x:(V10x-O10x)/Vn10x-1;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+Gx:(Vx-Ox)/Vnx-1;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+eqK:(G10x+1)/(Gx+1)-1;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+eqK:subst(10*Vnx,Vn10x,eqK);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+resVx:solve(K=eqK,Vx);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+resVx:rhs(resVx[1]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+resV10x:solve(K=eqK,V10x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+resV10x:rhs(resV10x[1]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+uncVx:sqrt(diff(resVx,Ox)^2*uOx^2+diff(resVx,K)^2*uK^2+diff(resVx,V10x)^2*uV10x^2+diff(resVx,O10x)^2*uO10x^2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+uncV10x:sqrt(diff(resV10x,Vx)^2*uVx^2+diff(resV10x,Ox)^2*uOx^2+diff(resV10x,K)^2*uK^2+diff(resV10x,O10x)^2*uO10x^2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+V1:resVx, K=-0.06e-6, V10x=10.0000083, Ox=0.15e-6, O10x=0.25e-6;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+uV1:uncVx, K=-0.06e-6, uK=0.09e-6, V10x=10.0000083, uV10x=0.1e-6, Ox=0.15e-6, uOx=0.1e-6, O10x=0.25e-6, uO10x=0.1e-6;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+V01:resVx, K=-1.86e-6, V10x=V1, Ox=-0.2e-6, O10x=0.15e-6;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+uV01:uncVx, K=-1.86e-6, uK=0.16e-6, V10x=V1, uV10x=uV1, Ox=-0.2e-6, uOx=0.1e-6, O10x=0.15e-6, uO10x=0.1e-6;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+V100:resV10x, K=1.54e-6, Vx=10.0000083, Ox=0.25e-6, O10x=12e-6;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+uV100:uncV10x, K=1.54e-6, uK=0.14e-6, Vx=10.0000083, uVx=0.1e-6, Ox=0.25e-6, uOx=0.1e-6, O10x=12e-6, uO10x=0.1e-6;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+V1000:resV10x, K=1.03e-6, Vx=V100, Ox=12e-6, O10x=0e-6;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+uV100:uncV10x, K=1.03e-6, uK=0.09e-6, Vx=V100, uVx=uV100, Ox=12e-6, uOx=0.1e-6, O10x=0e-6, uO10x=5e-6;
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

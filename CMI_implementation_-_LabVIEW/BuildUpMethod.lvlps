@@ -1,0 +1,37 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "65,97,778,412"
+
+[AB_Cache_{6F994B7A-0956-42DE-AF56-850EF74D43EC}]
+Cache_ProjSymbolChksum[String] = "270bbb0ce62c9293cc7b8ec8f2a8f678"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "324ef9f07a02870ed70eb81ee6054c6c"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/LV prog/martin/BuildUpMethod.repo/main/bu"
+Cache_GenFile[0][Path] Line0002 = "ilds/BuildUpMethod.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/LV prog/martin/BuildUpMethod.repo/main/bu"
+Cache_GenFile[1][Path] Line0002 = "ilds/BuildUpMethod.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/LV prog/martin/BuildUpMethod.repo/main/bu"
+Cache_GenFile[2][Path] Line0002 = "ilds/BuildUpMethod.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{22F6C51A-8BE4-43D1-AD5E-8A75E79B6848}"
+Cache_GenGUID[1][String] = "{5DCF2C3B-6A18-4480-BD9A-6499A57F412D}"
+Cache_GenGUID[2][String] = "{78868588-C48D-40BB-AF20-0A0E4EE58588}"
+Cache_OutputDir[Path] = "/C/LV prog/martin/BuildUpMethod.repo/main/builds"
+
+[AB_Cache_{A3388A79-03ED-438A-A79F-2388638224FE}]
+Cache_ProjSymbolChksum[String] = "270bbb0ce62c9293cc7b8ec8f2a8f678"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "324ef9f07a02870ed70eb81ee6054c6c"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/LV prog/martin/BuildUpMethod.repo/main/bu"
+Cache_GenFile[0][Path] Line0002 = "ilds/BuildUpMethod.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/LV prog/martin/BuildUpMethod.repo/main/bu"
+Cache_GenFile[1][Path] Line0002 = "ilds/BuildUpMethod.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/LV prog/martin/BuildUpMethod.repo/main/bu"
+Cache_GenFile[2][Path] Line0002 = "ilds/BuildUpMethod.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{22F6C51A-8BE4-43D1-AD5E-8A75E79B6848}"
+Cache_GenGUID[1][String] = "{5DCF2C3B-6A18-4480-BD9A-6499A57F412D}"
+Cache_GenGUID[2][String] = "{78868588-C48D-40BB-AF20-0A0E4EE58588}"
+Cache_OutputDir[Path] = "/C/LV prog/martin/BuildUpMethod.repo/main/builds"
+
