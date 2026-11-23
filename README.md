@@ -12,14 +12,15 @@ DC Voltage Scale of a Source.
 The Build-Up Method is a simple **method to build up the dc voltage scale** of a
 source.
 
-Originally the method was developed by L. A. Christian from MSL (Measurements Standards Laboratory of New Zealand, MSL),
-see [Christian2000], [pdf file with abstract](doc/Christian%20-%202000%20-%20A%20new%20method%20for%20measuring%20ratios%20of%20dc%20voltages%20f.pdf).
+Originally the method was developed by L. A. Christian from MSL (Measurements
+Standards Laboratory of New Zealand, MSL), see
+[Christian2000], [pdf file with abstract](doc/Christian%20-%202000%20-%20A%20new%20method%20for%20measuring%20ratios%20of%20dc%20voltages%20f.pdf).
 M. D. Early (MSL) continued work on the method, see [Early2011], [pdf file with poster](doc/Early%2C%20Christian%20-%20poster%20at%20EURAMET%20meeting%202011%20-%20A%20Simple%20Build-up%20Method%20for%20the%20DC%20Voltage%20Scale%20of%20a%20Source.pdf)
 Next M. Šíra started comparison of the method against a divider,
 see [Šíra2012], [pdf file with abstract](doc/%C5%A0%C3%ADra%20et%20al.%20-%202012%20-%20Comparison%20of%20the%20Reference%20Step%20Method%20with%20a%20MI%2080008001%20potentiometer.pdf).
 B.-O. Andersson, O. Gunnarsson and K.-E. Rydler did comparison against quantum standard.
-Later the validation of the method was done
-by group M. D. Early, M. Šíra, B.-O. Andersson, L. A. Christian, O. Gunnarsson and K.-E. Rydler,
+Later the validation of the method was done by group M. D. Early, M. Šíra,
+B.-O. Andersson, L. A. Christian, O. Gunnarsson and K.-E. Rydler,
 see [Early2013], [pdf file with paper](doc/Early%20et%20al.%20-%202013%20-%20A%20Simple%20Build-Up%20Method%20for%20the%20DC%20Voltage%20Scale%20of%20a%20Source.pdf).
 
 ### 1.2. References
@@ -76,7 +77,8 @@ The Type A uncertainties achieved by this approach can be less than 0.1 μV/V.
 The expanded uncertainty can be better than 0.2 μV/V up to 1000 V, limited only
 by the performance of the instruments used.
 
-The measurement setup, optimized for calibrator Fluke 5720A as a DUT and Datron 4808 as reference, was developed in MSL (figure by M. D. Early):
+The measurement setup, optimized for calibrator Fluke 5720A as a DUT and Datron
+4808 as reference, was developed in MSL (figure by M. D. Early):
 
 ![Connection setup of the Build-Up Method](readme_img/build-up_method_connection_setup.png "Connection setup of the Build-Up Method used by MSL")
 
@@ -105,17 +107,19 @@ The spreadsheet requires following plugins:
 2. CGUM (works at least with version 0.66)
 3. SGUM (works at least with version 0.96)
 
-All three plugins were developed by B. D. Hall, Measurement Standards Laboratory of New Zealand, Lower Hutt, New Zealand.
+All three plugins were developed by B. D. Hall, Measurement Standards
+Laboratory of New Zealand, Lower Hutt, New Zealand.
 
 ### 4.3. CMI implementation in LabVIEW
 
 #### 4.3.1. What is it?
 
-The directory [`CMI implementation in LabVIEW`](CMI_implementation_-_LabVIEW/) contains the implementation of
+The directory [`CMI implementation in LabVIEW`](CMI_implementation_-_LabVIEW/)
+contains the implementation of
 the Build-Up Method as a software developed in LabVIEW. It is a simple software
 that can control calibrators and multimeters, read measurement points from an
-spreadsheet file, setup devices, run measurement and write results into the [MSL spreadsheet
-file](#42-msl-spreadsheet).
+spreadsheet file, setup devices, run measurement and write results into the
+[MSL spreadsheet file](#42-msl-spreadsheet).
 
 Latest build is [1.3.1](CMI_implementation_-_LabVIEW/builds/1.3.1),
 built for windows, requires [LabVIEW Runtime Engine 2011, 32 bit](https://www.ni.com/en/support/downloads/software-products/download.labview-runtime.html).
@@ -139,18 +143,28 @@ standard at 10 V by your self. This part is not implemented in the software.
 
 ## 5. Acknowledgements
 
-This repository is possible only because L. A. Christian and M. D. Early from MSL shared their work, and agreed to release files as publicly available.
+This repository is possible only because L. A. Christian and M. D. Early from
+MSL shared their work, and agreed to release files as publicly available.
 
 ![MSL logo](readme_img/MSL_logo_small.jpg "MSL logo")
 
-L. A. Christian and M. D. Early are not responsible for any licensing issues related to the files in this repository.
+L. A. Christian and M. D. Early are not responsible for any licensing issues
+related to the files in this repository.
 
 ## 6. License
 
-The files in this repository are released under GNU General Public License v3, with exception to the following files:
+The files in this repository are released under GNU General Public License v3,
+with exception to the following files:
 
 1. `doc/Christian - 2000 - A new method for measuring ratios of dc voltages f.pdf` -- This file is licensed by the author and/or the journal.
 1. `doc/Šíra et al. - 2012 - Comparison of the Reference Step Method with a MI 80008001 potentiometer.pdf` -- This file is licensed by the author and/or the journal.
 1. `doc/Early et al. - 2013 - A Simple Build-Up Method for the DC Voltage Scale of a Source.pdf` -- This file is licensed by the author and/or the journal.
 
-L. A. Christian and M. D. Early are not responsible for any licensing issues related to the files in this repository.
+L. A. Christian and M. D. Early are not responsible for any licensing issues
+related to the files in this repository.
+
+## 7. TODO
+
+- Solve the issue with Excell addons - where to get them?
+- Add full license file.
+- Mention work by Dimitrios Georgakopoulos from NSAI
