@@ -16,7 +16,7 @@ Originally the method was developed by L. A. Christian from MSL (Measurements St
 see [Christian2000], [pdf file with abstract](doc/Christian%20-%202000%20-%20A%20new%20method%20for%20measuring%20ratios%20of%20dc%20voltages%20f.pdf).
 M. D. Early (MSL) continued work on the method, see [Early2011], [pdf file with poster](doc/Early%2C%20Christian%20-%20poster%20at%20EURAMET%20meeting%202011%20-%20A%20Simple%20Build-up%20Method%20for%20the%20DC%20Voltage%20Scale%20of%20a%20Source.pdf)
 Next M. Šíra started comparison of the method against a divider,
-see [Šíra2012], [pdf file with abstract](doc/%C5%A0%C3%ADra%20et%20al.%20-%202012%20-%20Comparison%20of%20the%20Reference%20Step%20Method%20with%20a%20MI%2080008001%20potentiometer.pdf)
+see [Šíra2012], [pdf file with abstract](doc/%C5%A0%C3%ADra%20et%20al.%20-%202012%20-%20Comparison%20of%20the%20Reference%20Step%20Method%20with%20a%20MI%2080008001%20potentiometer.pdf).
 B.-O. Andersson, O. Gunnarsson and K.-E. Rydler did comparison against quantum standard.
 Later the validation of the method was done
 by group M. D. Early, M. Šíra, B.-O. Andersson, L. A. Christian, O. Gunnarsson and K.-E. Rydler,
@@ -24,23 +24,35 @@ see [Early2013], [pdf file with paper](doc/Early%20et%20al.%20-%202013%20-%20A%2
 
 ### 1.2. References
 
-[Christian2000]: L. A. Christian, ‘A new method for measuring ratios of dc voltages from 10 V to 1100 V’, in Conference on Precision Electromagnetic Measurements. Conference Digest. CPEM 2000 (Cat. No.00CH37031), IEEE, 2000, pp. 665–666. doi: 10.1109/CPEM.2000.851187.
+[Christian2000]: L. A. Christian, ‘A new method for measuring ratios of dc
+voltages from 10 V to 1100 V’, in Conference on Precision Electromagnetic
+Measurements. Conference Digest. CPEM 2000 (Cat. No.00CH37031), IEEE, 2000, pp.
+665–666. doi: 10.1109/CPEM.2000.851187.
 
-[Early2011]: M. D. Early, L. A. Christian, ‘A Simple Build-up Method for the DC Voltage Scale of a Source’, poster presented at EURAME TC-EM meeting 2011.
+[Early2011]: M. D. Early, L. A. Christian, ‘A Simple Build-up Method for the DC
+Voltage Scale of a Source’, poster presented at EURAME TC-EM meeting 2011.
 
-[Šíra2012]: M. Šíra, M. Early, J. Streit, and L. Christian, ‘Comparison of the Reference Step Method with a MI 8000/8001 potentiometer’, in 2012 Conference on Precision Electromagnetic Measurements (CPEM), 2012, pp. 540–541. doi: 10.1109/CPEM.2012.6251042.
+[Šíra2012]: M. Šíra, M. Early, J. Streit, and L. Christian, ‘Comparison of the
+Reference Step Method with a MI 8000/8001 potentiometer’, in 2012 Conference on
+Precision Electromagnetic Measurements (CPEM), 2012, pp. 540–541. doi:
+10.1109/CPEM.2012.6251042.
 
-[Early2013]: M. D. Early et al., ‘A Simple Build-Up Method for the DC Voltage Scale of a Source’, IEEE Transactions on Instrumentation and Measurement, vol. 62, no. 6, pp. 1600–1607, 2013, doi: 10.1109/TIM.2012.2230734.
+[Early2013]: M. D. Early et al., ‘A Simple Build-Up Method for the DC Voltage
+Scale of a Source’, IEEE Transactions on Instrumentation and Measurement, vol.
+62, no. 6, pp. 1600–1607, 2013, doi: 10.1109/TIM.2012.2230734.
 
 ## 2. What can you do?
 
-You can read documentation, understand the method, use the resources and implement the method in your laboratory.
+You can read documentation, understand the method, use the resources and
+implement the method in your laboratory.
 
 If you find this website useful, **tell others**.
 
-If you find the method useful, use it and **[cite the paper Early2013](1.2.-references)**.
+If you find the method useful, use it and **[cite the paper Early2013](#12-references)**.
 
-If you implement the method into some new software, **share your software**. You can add it into this repository using typical fork-and-pull-request workflow.
+If you implement the method into some new software, **share your software**.
+You can add it into this repository using typical fork-and-pull-request
+workflow.
 
 ## 3. How the Build-Up Method works?
 
@@ -48,7 +60,7 @@ The method relies on the superb differential linearity of a multimeter HP/Keysig
 3458A. One multimeter and two calibrators are required: one calibrator to be calibrated,
 as DUT (Device Under Test), and the other calibrator to be used as a transfer standard.
 General overview is shown in the ![first image in this
-document](1-build-up-method). For details, see the paper [Early2013](1.2.-references).
+document](#1-build-up-method). For details, see the paper [Early2013](#12-references).
 
 The Build-up method is used to measure ratios of voltages, so one measurement
 point has to be referenced to and absolute voltage standard, usually 10 V is
@@ -103,7 +115,7 @@ The directory [`CMI implementation in LabVIEW`](CMI_implementation_-_LabVIEW/) c
 the Build-Up Method as a software developed in LabVIEW. It is a simple software
 that can control calibrators and multimeters, read measurement points from an
 spreadsheet file, setup devices, run measurement and write results into the [MSL spreadsheet
-file](4-2-msl-spreadsheet).
+file](#42msl-spreadsheet).
 
 Latest build is [1.3.1](CMI_implementation_in_LabVIEW/builds/1.3.1/),
 built for windows, requires [LabVIEW Runtime Engine 2011, 32 bit](https://www.ni.com/en/support/downloads/software-products/download.labview-runtime.html).
