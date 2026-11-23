@@ -59,7 +59,7 @@ workflow.
 The method relies on the superb differential linearity of a multimeter HP/Keysight/Agilent
 3458A. One multimeter and two calibrators are required: one calibrator to be calibrated,
 as DUT (Device Under Test), and the other calibrator to be used as a transfer standard.
-General overview is shown in the ![first image in this
+General overview is shown in the [first image in this
 document](#1-build-up-method). For details, see the paper [Early2013](#12-references).
 
 The Build-up method is used to measure ratios of voltages, so one measurement
@@ -117,7 +117,7 @@ that can control calibrators and multimeters, read measurement points from an
 spreadsheet file, setup devices, run measurement and write results into the [MSL spreadsheet
 file](#42-msl-spreadsheet).
 
-Latest build is [1.3.1](CMI_implementation_in_LabVIEW/builds/1.3.1/),
+Latest build is [1.3.1](CMI_implementation_-_LabVIEW/builds/1.3.1),
 built for windows, requires [LabVIEW Runtime Engine 2011, 32 bit](https://www.ni.com/en/support/downloads/software-products/download.labview-runtime.html).
 
 #### 4.3.2. How to use it?
